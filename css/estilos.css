@@ -28,53 +28,35 @@ main {
 
 .divPrincipal{ 
 display: flex;
-justify-content: center;
+justify-content: center;}
 
 
-}
-.listanav { 
+.listanav{ 
     display: flex;  
     flex-direction: column;
-    justify-content: space-evenly;     
-
+    justify-content: space-evenly;   
+    background-color: gray;
+    color: white;
+    font-family: 'Phudu', cursive;
 }
+
 
 .listanav a {
     /**navBar**/
-    font-family: 'Phudu', cursive;
-    text-decoration: none;
-    font-size: 40px;
-    color: black;
-    display: flex;
-    flex-direction: column;
     
-    margin: 20px;
-
-}
-.listanav ul { 
-    list-style: none;
-    text-align: center;
-    padding: 0;
-    margin: 0;
-    justify-content: space-evenly;
+    text-decoration: none;
+    font-size: 25px;
+    color: white;
    
     
-}
-.listanav li{ 
-    display: inline-block;
-
-
+   
 
 }
-.listanav { 
-    border-bottom: solid 1px black;
-    background-color:#FFFBAC;
+
+.item:hover{ 
+
+    color: rgb(155, 255, 4);
 }
-.listanav:hover { 
-    translate: translatey (-15px);
-
-} 
-
 
 
 
@@ -323,7 +305,9 @@ color: black;}
       margin: 30px;
        
    }
-   
+   .divmascota{ 
+    justify-content: center;
+   }
    .grid_img{ 
    width: 100%;
    height: 100%;
@@ -438,15 +422,18 @@ margin: auto;
     list-style: none;
     padding: 10px;
 }
-
-.recorda { 
+.recorda a { 
+    text-decoration: none;
+    
+}
+.recorda  { 
     font-family: 'Poppins', sans-serif;
     font-size: 20px;
     display: flex;
     justify-content: center;
     margin: 12px;
     padding: 20px;
-    text-decoration: underline white;
+    text-decoration:  white;
     color: white;
 }
 .recordabox { 
