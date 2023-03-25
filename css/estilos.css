@@ -575,6 +575,9 @@ margin: auto;
 
 
     /**************************************************************************************************GALERIA*/ 
+    @media (max-width: 768px){ 
+
+    
     .listanav a { 
         text-align: center;
 
@@ -654,7 +657,7 @@ margin: auto;
         grid-row-start: span 1;
     }
 
-
+ }
 
 .DIRECCION p{ 
 
