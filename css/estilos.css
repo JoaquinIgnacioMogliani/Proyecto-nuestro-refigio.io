@@ -535,7 +535,7 @@ margin: auto;
 .contenedor .card p { 
     font-family: 'Poppins', sans-serif;
     width: 500px;
-
+    align-items: center;
    font-size: 15px;
 
 }
@@ -733,6 +733,7 @@ margin: auto;
     .listanav  a { 
         font-size: 20px;
         text-align: center;
+        color: white;
        }
    
     .galeriabienvenida { 
@@ -757,6 +758,9 @@ margin: auto;
          
      }
 
-
+    .card p { 
+        text-align: center; 
+       white-space: nowrap;     
+    }
 
 }
